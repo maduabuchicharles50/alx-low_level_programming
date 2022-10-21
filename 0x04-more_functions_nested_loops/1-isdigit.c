@@ -3,7 +3,6 @@
 /**
  * function - Prints for a digit
  *   return 1 if c is a digit
- *
  *   return 0 otherwise
  */
 int _isdigit(int c)
