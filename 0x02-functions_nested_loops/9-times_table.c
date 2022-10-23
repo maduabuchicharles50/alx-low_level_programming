@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * times_tables - Prints the times table, starting with 0.
+ * times_table - Prints the times table, starting with 0.
  *
  */
 
-void times_tables(void)
+void times_table(void)
 {
 	int num, mult, result;
 
