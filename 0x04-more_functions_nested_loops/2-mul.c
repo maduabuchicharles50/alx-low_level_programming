@@ -1,11 +1,15 @@
 #include "main.h"
 
 /**
- * function - Print multiplies two intgers.
- * Return: Success 1.
+ * mul - multiplies two integers
+ *
+ * @a: First integer
+ *
+ * @b: Second integer
+ *
+ * Return: result
  */
-
-int mul(int a, intb)
+int mul(int a, int b)
 {
 	int result;
 
@@ -13,4 +17,3 @@ int mul(int a, intb)
 
 	return (result);
 }
-
