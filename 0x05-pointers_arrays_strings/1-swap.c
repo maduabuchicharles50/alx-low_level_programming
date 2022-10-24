@@ -4,7 +4,7 @@
  * swap_int - swap values of two nums
  * @b : first pointer
  * @a : second pointer
- * Returnn : void
+ * Return : void
  */
 
 void swap_int(int *a, int *b)
