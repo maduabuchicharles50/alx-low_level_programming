@@ -2,8 +2,8 @@
 
 /**
  * swap_int - swqps the values of int a and int b
- * @a: first int to swqp
- * @b: second int to swap
+ * @a: first int
+ * @b: second int
  * Return: void
  */
 
@@ -14,6 +14,5 @@ void swap_int(int *a, int *b)
 	c = *a;
 	*a = *b
 
-	 * b = c;
-
+	 *b = c;
 }
