@@ -5,14 +5,15 @@
  * @str: string.
  * Return: length.
  */
-size_t _strlen(const char *str)
+int _strlen(char *s);
 {
-	size_t len = 0;
+	int length = 0;
 
-	while (*str++)
+	while (s[length] != '\0')
 	{
-		len++;
+		length++;
 	}
 
-	return (len);
+	return (length);
 }
+
